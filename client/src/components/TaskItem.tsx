@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { FileEditIcon } from "./ui/file-edit-icon";
+import { TrashIcon } from "./ui/trash";
 
 interface TaskItemProps {
   status: string;
@@ -44,6 +45,7 @@ export function TaskItem({ status }: TaskItemProps) {
           <FileEditIcon className="w-4 h-4" />
           <span className="sr-only">Edit</span>
         </Button>
+        <TrashIcon />
       </div>
     </div>
   );
