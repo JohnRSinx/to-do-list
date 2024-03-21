@@ -1,11 +1,10 @@
 import { Dashboard } from "./components/Dashboard";
+import { Header } from "./components/Header";
 
 export function App() {
   return (
-    <div
-      key="1"
-      className="min-h-screen bg-[#0D0D0D] text-white flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8"
-    >
+    <div className="flex flex-col w-full min-h-screen">
+      <Header />
       <Dashboard />
     </div>
   );
