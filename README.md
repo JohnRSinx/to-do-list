@@ -1,48 +1,49 @@
-To do list
-Este é um breve guia sobre o seu aplicativo, descrevendo sua funcionalidade, tecnologias utilizadas e instruções básicas para execução e configuração.
+# To Do List
 
-Descrição
-Permiti ao usuário
-criar uma nova tarefa, visualizar todas as tarefas e visualizar uma tarefa específica.
+## Sobre
 
-Tecnologias Utilizadas
-Backend: C# com ASP.NET
-Frontend: React com TypeScript e Tailwind CSS
-Banco de Dados: SQLite
-Requisitos de Sistema
-Node.js
-.NET Core SDK
-SQLite
-Instalação e Configuração
-Clonando o Repositório:
+Este é um aplicativo simples de lista de tarefas que permite aos usuários criar novas tarefas, visualizar todas as tarefas existentes e ver detalhes de uma tarefa específica.
 
-bash
-Copy code
+## Tecnologias Utilizadas
+
+- **Backend:** C# com ASP.NET
+- **Frontend:** React com TypeScript e Tailwind CSS
+- **Banco de Dados:** SQLite
+
+## Requisitos de Sistema
+
+- Node.js
+- .NET Core SDK
+- SQLite
+
+## Instalação e Configuração
+
+### Clonando o Repositório
+
+```bash
 git clone https://github.com/JohnRSinx/to-do-list
-Instalando Dependências Backend:
 
-bash
-Copy code
+
+### Instalando Dependências Backend
+
 cd backend
 dotnet restore
-Configurando o Banco de Dados:
 
-Executando o Backend:
+### Executando o Backend
 
-bash
-Copy code
 dotnet run
-Instalando Dependências Frontend:
 
-bash
-Copy code
+### Instalando Dependências Frontend
+
 cd frontend
 npm install
-Executando o Frontend:
 
-bash
-Copy code
+### Executando o Frontend
+
 npm run dev
-Acessando o Aplicativo:
 
-Abra seu navegador e vá para http://localhost:5173/.
+
+## Acessando o Aplicativo
+Abra seu navegador e vá para [http://localhost:5173/](http://localhost:5173/).
+
+```
