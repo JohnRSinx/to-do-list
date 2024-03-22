@@ -26,16 +26,16 @@ git clone https://github.com/JohnRSinx/to-do-list
 
 ### Instalando Dependências Backend
 
-cd backend
+cd server
 dotnet restore
 
 ### Executando o Backend
-
+cd to-do-list
 dotnet run
 
 ### Instalando Dependências Frontend
 
-cd frontend
+cd client
 npm install
 
 ### Executando o Frontend
